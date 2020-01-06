@@ -35,6 +35,8 @@ GIF created with [Recordit](https://recordit.co/).
 
 ## Notes
 
+- Current version of the app is created for iPhone 8 model
+
 - I had one particularly troubling issue where the build would fail after deleting an outlet created by control-dragging an item from the storyboard to the view controller. I fixed this by right-clicking
 the storyboard and removing the reference to the item.
 
