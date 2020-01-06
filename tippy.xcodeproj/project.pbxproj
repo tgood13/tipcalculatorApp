@@ -15,6 +15,7 @@
 		E201AA9A23B96105003D9BC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E201AA9823B96105003D9BC3 /* LaunchScreen.storyboard */; };
 		E201AAA523B96105003D9BC3 /* tippyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E201AAA423B96105003D9BC3 /* tippyTests.swift */; };
 		E201AAB023B96105003D9BC3 /* tippyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E201AAAF23B96105003D9BC3 /* tippyUITests.swift */; };
+		E201AAC023C180E7003D9BC3 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E201AABF23C180E7003D9BC3 /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		E201AAAB23B96105003D9BC3 /* tippyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tippyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E201AAAF23B96105003D9BC3 /* tippyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tippyUITests.swift; sourceTree = "<group>"; };
 		E201AAB123B96105003D9BC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E201AABF23C180E7003D9BC3 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SettingsViewController.swift; path = ../SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		E201AA8C23B96102003D9BC3 /* tippy */ = {
 			isa = PBXGroup;
 			children = (
+				E201AABF23C180E7003D9BC3 /* SettingsViewController.swift */,
 				E201AA8D23B96102003D9BC3 /* AppDelegate.swift */,
 				E201AA8F23B96102003D9BC3 /* SceneDelegate.swift */,
 				E201AA9123B96102003D9BC3 /* ViewController.swift */,
@@ -262,6 +265,7 @@
 				E201AA9223B96102003D9BC3 /* ViewController.swift in Sources */,
 				E201AA8E23B96102003D9BC3 /* AppDelegate.swift in Sources */,
 				E201AA9023B96102003D9BC3 /* SceneDelegate.swift in Sources */,
+				E201AAC023C180E7003D9BC3 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -441,7 +445,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.tippy;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = tippy;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -458,7 +462,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.tippy;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = tippy;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
